@@ -1,0 +1,462 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* -------------------------------header-sec Start----------------------------------- */
+.header-sec {
+  height: 105vh;
+  width: 100%;
+  /* background-color: aqua; */
+  background-image: url(./images1/header_banner_home_filtr.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 1px;
+}
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  /* background-color: aqua; */
+  position: fixed;
+  top: 0px;
+  padding: 1px;
+  box-shadow: 0px 0px 0.8px 0.1px black;
+  /* z-index: 2000; */
+}
+.logo {
+  height: 30px;
+  width: 130px;
+  /* background-color: aquamarine; */
+  margin-top: 38px;
+  margin-left: 75px;
+}
+.nav-items {
+  height: 110px;
+  width: 60%;
+  /* background-color: blueviolet; */
+  margin-left: 410px;
+  margin-top: -80px;
+}
+.nav-items ul {
+  list-style: none;
+}
+.nav-items ul li {
+  display: inline-block;
+  margin-top: 55px;
+  margin-left: 35px;
+  /* border: 1px solid #000; */
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav-items ul li:hover {
+  border-bottom: 1px solid rgb(12, 152, 234);
+  padding-bottom: 33px;
+}
+.header-sec-content {
+  height: 150px;
+  width: 80%;
+  /* background-color: aqua; */
+  margin: 150px auto;
+  padding: 1px;
+}
+.header-sec-heading1 {
+  font-size: 25px;
+  color: rgb(12, 152, 234);
+  text-align: center;
+  margin-top: 20px;
+  padding: 1px;
+}
+.header-sec-heading2 {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 1px;
+}
+.header-sec-icone {
+  height: 8vh;
+  width: 6%;
+  /* background-color: azure; */
+  margin: 450px auto;
+  text-align: center;
+}
+.arrow {
+  font-size: 30px;
+  margin-top: 25px;
+  color: aliceblue;
+}
+/* --------------------------sec-1 Start--------------------------------- */
+.sec-1 {
+  height: 110vh;
+  width: 100%;
+  /* background-color: aqua; */
+  background-image: url(./images1/rewolucja_w_lotnictwie.jpg);
+  background-size: 100% 100%;
+  padding: 1px;
+}
+.sec-1-heading {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  margin-top: 100px;
+}
+.hicon {
+  color: rgb(12, 152, 234);
+  font-size: 20px;
+  font-weight: bold;
+}
+.sec-1-parrabox {
+  height: 28vh;
+  width: 60%;
+  /* background-color: bisque; */
+  margin: 40px auto;
+}
+.sec-1-parra1 {
+  text-align: center;
+  color: rgb(102, 102, 111);
+  font-size: 18px;
+}
+.sec-1-parra2 {
+  text-align: center;
+  color: rgb(102, 102, 111);
+  font-size: 18px;
+  margin-top: 20px;
+}
+/* ------------------------------Sec-2 Start-------------------------------------------- */
+.sec-2 {
+  /* height: 180vh; */
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding: 1px;
+}
+.sec-2-heading {
+  text-align: center;
+  margin-top: 60px;
+}
+.h2icon {
+  color: rgb(12, 152, 234);
+  font-size: 16px;
+  font-weight: bold;
+}
+.sec-2-parrabox {
+  height: 20vh;
+  width: 60%;
+  /* background-color: aqua; */
+  margin: 35px auto;
+}
+.sec-2-parra {
+  text-align: center;
+  color: rgb(102, 102, 111);
+  font-size: 20px;
+}
+.sec-2-mainbox {
+  /* height: 85vh; */
+  width: 90%;
+  margin: 40px auto;
+  /* border: 1px solid red; */
+}
+.mainbox-heading {
+  height: 5vh;
+  width: 12%;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  text-align: center;
+  color: rgb(81, 82, 84);
+}
+.mainbox-heading1 {
+  width: 12%;
+  margin-left: 310px;
+}
+.mainbox-heading2 {
+  width: 23%;
+  margin-left: 290px;
+}
+.mainbox1 {
+  height: 11vh;
+  width: 100%;
+  border: 1px solid lightgray;
+  margin-top: 25px;
+}
+.mainbox1-child1 {
+  height: 11vh;
+  width: 20%;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+  /* text-align: center; */
+  /* line-height: 11vh; */
+}
+.child1-content {
+  padding: 30px 30px;
+  color: rgb(81, 82, 84);
+}
+.mainbox1-child2 {
+  width: 10%;
+  margin-left: 200px;
+}
+.child2-content {
+  padding: 30px 30px;
+  color: rgb(81, 82, 84);
+}
+.mainbox1-child3 {
+  width: 10%;
+  margin-left: 30px;
+  line-height: 11vh;
+}
+.mainbox1-child4 {
+  width: 10%;
+  margin-left: 148px;
+}
+.child4-content {
+  padding: 30px 30px;
+  color: rgb(81, 82, 84);
+}
+.mainbox1-child5 {
+  width: 10%;
+  margin-left: 50px;
+  line-height: 11vh;
+}
+/* ---------------------------------------Sec-3 Start----------------------------------- */
+.sec-3 {
+  height: 130vh;
+  width: 100%;
+  /* background-color: aqua; */
+  background-image: url(./images1/flarislar01_filtr.jpg);
+  background-size: 100% 100%;
+  padding: 1px;
+}
+.sec-3-heading {
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+}
+.sec-3-parrabox {
+  height: 20vh;
+  width: 60%;
+  /* background-color: aquamarine; */
+  margin: 50px auto;
+}
+.sec-3-parra {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.sec-3-btnbox {
+  height: 20vh;
+  width: 80%;
+  /* border: 1px solid white; */
+  margin: 580px auto;
+}
+.btnbox-child {
+  height: 20vh;
+  width: 43%;
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.btnbox-child1 {
+  margin-left: 80px;
+  text-align: center;
+}
+.child-heading1 {
+  color: white;
+}
+.child-btn1 {
+  padding: 18px 50px;
+  margin: 35px 35px;
+  background-color: transparent;
+  border: 1px solid rgb(0, 170, 248);
+  color: rgb(0, 170, 248);
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn-icon {
+  color: white;
+  font-size: 14px;
+}
+.child-btn1:hover {
+  color: white;
+  background-color: rgb(0, 170, 248);
+}
+/* -------------------------------Sec-4 Start------------------------------------- */
+.sec-4 {
+  height: 60vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  background-image: url(./images1/wiadomosci_i_informacje_prasowe_filtr.jpg);
+  background-size: 100% 100%;
+  padding: 1px;
+}
+.contentbox {
+  height: 30vh;
+  width: 50%;
+  /* background-color: aqua; */
+  margin: 130px auto;
+  text-align: center;
+  padding: 1px;
+}
+.contentbox h1 {
+  color: white;
+  margin-top: 20px;
+}
+.wicon {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contentbox button {
+  padding: 18px 50px;
+  font-size: 16px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  margin: 40px;
+}
+.bicon {
+  color: rgb(0, 170, 248);
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.contentbox button:hover {
+  background-color: white;
+  color: rgb(0, 170, 248);
+  cursor: pointer;
+}
+/* <!-- ----------------------------flaris-container Start----------------------------------------------- --> */
+
+.flaris-container {
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  padding: 1px;
+}
+.flaris-box {
+  height: 45vh;
+  width: 90%;
+  /* border: 1px solid white; */
+  margin: 70px auto;
+}
+.logo2 {
+  height: 50px;
+  width: 130px;
+  /* background-color: aqua; */
+  display: inline-block;
+  vertical-align: top;
+}
+.navlist2 {
+  height: 47vh;
+  width: 45%;
+  /* background-color: aquamarine; */
+  display: inline-block;
+  margin-left: 55%;
+  vertical-align: top;
+  margin-top: -50px;
+  padding: 1px;
+}
+.navlist2-box1 {
+  height: 20vh;
+  width: 25%;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+.navlist2-box1 h3 {
+  color: white;
+  font-weight: bold;
+}
+.navlist2-box1 ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.navlist2-box1 ul li {
+  margin-top: 10px;
+}
+.navlist2-box1 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.input-box {
+  height: 25vh;
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+.input-box label {
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.input-box input {
+  height: 7.5vh;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.input-box button {
+  height: 7.5vh;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-box button:hover {
+  background-color: gray;
+  border: none;
+}
+.ffa {
+  margin-left: -20px;
+  opacity: 0;
+}
+.input-box button:hover .ffa {
+  margin-left: 20px;
+  opacity: 1;
+  transition: all 0.5s;
+}
+.hr {
+  height: 1px;
+  width: 90%;
+  background-color: aliceblue;
+  margin: -40px auto;
+}
+.footer-box {
+  height: 8vh;
+  width: 90%;
+  /* border: 1px solid red;s */
+  margin: 70px auto;
+}
+.footer-box p {
+  color: rgb(204, 204, 204);
+}
+.icon-mainbox {
+  height: 6vh;
+  width: 7%;
+  /* border: 1px solid white; */
+  margin-left: 93%;
+  margin-top: -20px;
+}
+.icon-box {
+  height: 5vh;
+  width: 40%;
+  /* border: 1px solid white; */
+  display: inline-block;
+  margin-left: 5.8px;
+}
+.setimg {
+  height: 100%;
+  width: 100%;
+}

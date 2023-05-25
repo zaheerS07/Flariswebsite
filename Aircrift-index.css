@@ -1,0 +1,999 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* --------------------------------header-sec start----------------------- */
+.header-sec {
+  height: 105vh;
+  width: 100%;
+  /* background-color: aqua; */
+  background-image: url(./images2/flarislar01_filtr.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 1px;
+}
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  /* background-color: aqua; */
+  position: fixed;
+  top: 0px;
+  padding: 1px;
+  box-shadow: 0px 0px 0.8px 0.1px black;
+  z-index: 2000;
+}
+.logo {
+  height: 30px;
+  width: 130px;
+  /* background-color: aquamarine; */
+  margin-top: 38px;
+  margin-left: 75px;
+}
+.nav-items {
+  height: 110px;
+  width: 60%;
+  /* background-color: blueviolet; */
+  margin-left: 410px;
+  margin-top: -80px;
+}
+.nav-items ul {
+  list-style: none;
+}
+.nav-items ul li {
+  display: inline-block;
+  margin-top: 55px;
+  margin-left: 35px;
+  /* border: 1px solid #000; */
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav-items ul li:hover {
+  border-bottom: 1px solid rgb(12, 152, 234);
+  padding-bottom: 33px;
+}
+.header-sec-content {
+  height: 150px;
+  width: 80%;
+  /* background-color: aqua; */
+  margin: 150px auto;
+  padding: 1px;
+}
+.header-sec-heading1 {
+  font-size: 25px;
+  color: rgb(12, 152, 234);
+  text-align: center;
+  margin-top: 20px;
+  padding: 1px;
+}
+.bl-icon {
+  font-size: 18px;
+  color: rgb(12, 152, 234);
+}
+.header-sec-heading2 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 1px;
+}
+.header-sec-icone {
+  height: 45px;
+  width: 45px;
+  /* background-color: azure; */
+  border-radius: 100%;
+  border: 3px solid white;
+  margin: 460px auto;
+  text-align: center;
+  line-height: 50px;
+}
+.arrow {
+  font-size: 30px;
+  /* margin-top: 5px; */
+  color: aliceblue;
+  font-weight: bold;
+}
+/* ----------------feature-navbar start---------------------- */
+.feature-nav {
+  height: 12vh;
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+.nav {
+  height: 10vh;
+  width: 40%;
+  /* background-color: aqua; */
+  margin: 20px auto;
+  padding: 1px;
+}
+.nav ul {
+  list-style: none;
+  margin-top: 25px;
+  text-align: center;
+}
+.nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+  transition-duration: 1s;
+}
+.nav ul li a:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+.flaris-container {
+  height: 95vh;
+  width: 100%;
+  background-color: bisque;
+  background-image: url(./images2/tlo_do_foty.png);
+  background-size: cover;
+  background-position-y: -250px;
+  padding: 1px;
+}
+.flaris-imgbox1 {
+  height: 70vh;
+  width: 90%;
+  /* border: 1px solid #000; */
+  margin: auto;
+  margin-top: -60px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.flaris-imgbox2 {
+  height: 10vh;
+  width: 90%;
+  /* border: 1px solid #000; */
+  margin: auto;
+}
+.flaris-content {
+  height: 25vh;
+  width: 60%;
+  /* background-color: aquamarine; */
+  margin: 40px auto;
+  padding: 1px;
+}
+.flaris-content h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(51, 51, 51);
+}
+.flaris-content p {
+  text-align: center;
+  color: rgb(102, 102, 102);
+  font-size: 18px;
+  margin-top: 38px;
+  line-height: 25px;
+}
+/* <!-- ----------------------------feature Start---------------------- --> */
+.feature-container {
+  height: 190vh;
+  width: 100%;
+  /* background-color: aqua; */
+  /* border: 1px solid #000; */
+  padding: 1px;
+}
+.feature-content {
+  height: 25vh;
+  width: 60%;
+  /* background-color: aquamarine; */
+  margin: auto;
+  margin-top: 60px;
+  padding: 1px;
+}
+.feature-content h1 {
+  text-align: center;
+  color: rgb(51, 51, 51);
+  margin-top: 30px;
+}
+.feature-content p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.feature-pickbox1 {
+  height: 70vh;
+  width: 90%;
+  /* border: 1px solid #000; */
+  margin: auto;
+}
+.content-box {
+  height: 70vh;
+  width: 40%;
+  border: 1px solid gray;
+  display: inline-block;
+  vertical-align: top;
+}
+.inner-box {
+  height: 40vh;
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid #000; */
+  margin-top: 80px;
+  padding: 1px;
+}
+.content-box h3 {
+  color: rgb(51, 51, 51);
+  margin-top: 40px;
+}
+.p1 {
+  color: rgb(81, 82, 89);
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.img-box {
+  height: 70vh;
+  width: 56%;
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-left: 49px;
+}
+.img-box2 {
+  margin-left: 0px;
+}
+.feature-pickbox2 {
+  margin-top: 70px;
+  /* border: 1px solid #000; */
+}
+.content-box2 {
+  margin-left: 49px;
+}
+.content-box2 p {
+  color: rgb(81, 82, 89);
+  /* text-align: center; */
+  font-size: 18px;
+  margin-top: 40px;
+}
+/* -------------------------------cockpit start------------------- */
+.cockpit-container {
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid #000; */
+  background-image: url(./images2/kabina_filtr.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+}
+.cockpit-content {
+  height: 20vh;
+  width: 70%;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 80px;
+}
+.cockpit-content h1 {
+  color: white;
+  text-align: center;
+}
+.cockpit-content p {
+  color: white;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.number-box {
+  height: 50vh;
+  width: 70%;
+  /* border: 1px solid #000; */
+  margin: auto;
+  margin-top: 60px;
+}
+.round-dv1 {
+  height: 50px;
+  width: 50px;
+  /* background-color: aqua; */
+  margin-left: 270px;
+  position: relative;
+}
+.round-dv1 img {
+  position: absolute;
+}
+.round-dv1 img:nth-child(1) {
+  opacity: 0;
+}
+.round-dv1:hover img:nth-child(1) {
+  z-index: 1;
+  opacity: 1;
+  cursor: pointer;
+}
+.round-dv1:hover img:nth-child(2) {
+  z-index: -1;
+  cursor: pointer;
+}
+.round-dv2 {
+  margin-left: 590px;
+  /* margin-top: 10px; */
+}
+.round-dv3 {
+  margin-left: 900px;
+  margin-top: -20px;
+}
+.round-dv4 {
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.round-dv5 {
+  margin-left: 20px;
+  /* margin-top: 100px; */
+}
+/* ------------------------------------safety start---------------------------- */
+.safety-container {
+  height: 180vh;
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding: 1px;
+}
+.safety-content {
+  height: 20vh;
+  width: 80%;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 50px;
+  padding: 1px;
+}
+.safety-content h1 {
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+.safety-content p {
+  text-align: center;
+  color: rgb(81, 82, 89);
+  font-size: 18px;
+  margin-top: 30px;
+}
+.safety-pickbox1 {
+  height: 70vh;
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.safety-box {
+  height: 70vh;
+  width: 60%;
+  /* border: 1px solid gray; */
+  display: inline-block;
+}
+.safety-box1 {
+  width: 36.6%;
+  margin-left: 40px;
+  border: 1px solid gray;
+  vertical-align: top;
+}
+.contentbox1 {
+  height: 28vh;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  /* border: 1px solid #000; */
+}
+.contentbox1 h3 {
+  color: rgb(30, 30, 30);
+}
+.contentbox1 p {
+  color: rgb(76, 76, 76);
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contentbox2 {
+  height: 12vh;
+}
+.safety-pickbox2 {
+  height: 70vh;
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 70px;
+}
+.safety-box2 {
+  width: 36.6%;
+  /* margin-left: 40px; */
+  border: 1px solid gray;
+  vertical-align: top;
+}
+.safety-box3 {
+  margin-left: 40px;
+}
+.contentbox3 {
+  height: 40vh;
+  margin-top: 90px;
+}
+/* ---------------------------------fuselage start------------------------- */
+.fuselage-container {
+  height: 120vh;
+  width: 100%;
+  border: 1px solid #000;
+  background-image: url(./images2/kadlub_filtr.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+}
+.fuselage-content {
+  height: 25vh;
+  width: 70%;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 60px;
+}
+.fuselage-content h1 {
+  color: white;
+  text-align: center;
+}
+.fuselage-content p {
+  color: white;
+  font-size: 17px;
+  margin-top: 50px;
+}
+.fuselage-numbox {
+  height: 40vh;
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+  /* border: 1px solid #000; */
+}
+.num-dv1 {
+  height: 50px;
+  width: 50px;
+  /* background-color: aquamarine; */
+  margin-left: 245px;
+  margin-top: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.num-dv1 img {
+  position: absolute;
+}
+.num-dv1 img:nth-child(1) {
+  opacity: 0;
+}
+.num-dv1:hover img:nth-child(1) {
+  z-index: 1;
+  opacity: 1;
+}
+/* .num-dv1:hover img:nth-child(2) {
+  z-index: -1;
+} */
+.num-dv2 {
+  margin-left: 1015px;
+  margin-top: 70px;
+}
+.num-dv3 {
+  margin-left: 670px;
+  margin-top: 20px;
+}
+.num-dv4 {
+  margin-left: 10px;
+  margin-top: -120px;
+}
+/* --------------------------------PROPULSION Start---------------------------------------- */
+.propulsion-container {
+  height: 120vh;
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding: 1px;
+}
+.propulsion-content {
+  height: 33vh;
+  width: 75%;
+  margin: auto;
+  margin-top: 70px;
+  /* background-color: aqua; */
+}
+.propulsion-content h1 {
+  text-align: center;
+  color: rgb(30, 30, 30);
+}
+.propulsion-content p {
+  color: rgb(76, 76, 76);
+  text-align: center;
+  font-size: 19px;
+  margin-top: 50px;
+}
+.propulsion-mainbox {
+  height: 74vh;
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.mainbox-imgbox1 {
+  height: 74vh;
+  width: 35%;
+  border: 1px solid gray;
+  display: inline-block;
+  vertical-align: top;
+}
+.imgbox1-content {
+  height: 50vh;
+  width: 85%;
+  margin: auto;
+  margin-top: 90px;
+  /* border: 1px solid #000; */
+}
+.imgbox1-content h3 {
+  color: rgb(30, 30, 30);
+}
+.imgbox1-content p {
+  color: rgb(76, 76, 76);
+  margin-top: 30px;
+  font-size: 17px;
+}
+.mainbox-imgbox2 {
+  width: 60%;
+  margin-left: 62px;
+  border: none;
+}
+/* -------------------------------EXTERIOR Start------------------------------------ */
+.exterior-container {
+  height: 110vh;
+  width: 100%;
+  border: 1px solid #000;
+  background-image: url(./images2/design_filtr.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+}
+.exterior-content {
+  height: 30vh;
+  width: 70%;
+  /* background-color: aquamarine; */
+  margin: auto;
+  margin-top: 60px;
+}
+.exterior-content h1 {
+  color: white;
+  text-align: center;
+}
+.exterior-content p {
+  color: white;
+  margin-top: 30px;
+  font-size: 17px;
+}
+.exterior-numbox {
+  height: 35vh;
+  width: 75%;
+  margin: auto;
+  margin-top: 170px;
+  /* border: 1px solid #000; */
+}
+.exter-rdv1 {
+  height: 50px;
+  width: 50px;
+  /* background-color: bisque; */
+  margin-left: 650px;
+  position: relative;
+  cursor: pointer;
+}
+.exter-rdv1 img {
+  position: absolute;
+}
+.exter-rdv1 img:nth-child(1) {
+  opacity: 0;
+}
+.exter-rdv1:hover img:nth-child(1) {
+  z-index: 1;
+  opacity: 1;
+}
+.exter-rdv2 {
+  margin-left: 530px;
+}
+.exter-rdv3 {
+  margin-left: 30px;
+}
+.exter-rdv4 {
+  margin-left: 950px;
+  margin-top: 44px;
+}
+/* ---------------------------------------Specification Start-------------------------------------- */
+.specif-container {
+  height: 85vh;
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding: 1px;
+}
+.specif-heading {
+  text-align: center;
+  margin-top: 40px;
+}
+.airplane-mainbox {
+  height: 70vh;
+  width: 100%;
+  margin-top: 70px;
+  /* margin-left: 50%; */
+  /* border: 1px solid #000; */
+  background-image: url(./images2/specyfikacja.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.manufact-mainbox {
+  height: 70vh;
+  width: 56%;
+  /* border: 1px solid #000; */
+}
+.manufact-box1 {
+  height: 55vh;
+  width: 40%;
+  margin: 10px auto;
+  margin-left: 80px;
+  border: 1px solid gray;
+  display: inline-block;
+  vertical-align: top;
+}
+.box1-childbox {
+  height: 50vh;
+  width: 80%;
+  /* border: 1px solid #000; */
+  margin: auto;
+  /* margin-top: 10px; */
+}
+.childbox-p1 {
+  color: darkgray;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+.childbox-p2 {
+  color: rgb(86, 82, 84);
+  margin-top: 8px;
+  font-size: 18px;
+}
+.childbox-dv1 {
+  height: 1px;
+  width: 40px;
+  background-color: darkgray;
+  margin-top: 15px;
+}
+
+.manufact-box2 {
+  border: none;
+  margin-left: 35px;
+}
+/* -------------------------power-Start-------------------------- */
+.power-container {
+  height: 80vh;
+  width: 100%;
+  /* border: 1px solid white; */
+  background-color: rgb(30, 30, 30);
+  padding: 1px;
+}
+.power-mainbox {
+  height: 66vh;
+  width: 90%;
+  /* border: 1px solid white; */
+  margin: auto;
+  margin-top: 70px;
+}
+.mbx-childbox1 {
+  height: 66vh;
+  width: 22%;
+  border: 1px solid lightgray;
+  display: inline-block;
+  vertical-align: top;
+}
+.chd-innerbox {
+  height: 54vh;
+  width: 85%;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 50px;
+}
+.hd2 {
+  color: white;
+}
+.pra1 {
+  color: white;
+  font-size: 17px;
+  margin-top: 45px;
+}
+.pra2 {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.pra-2 {
+  margin-top: 70px;
+}
+.line-dv {
+  height: 1px;
+  width: 35px;
+  background-color: white;
+  margin-top: 20px;
+}
+.chd-innerbox1 {
+  height: 54vh;
+  width: 45%;
+  margin-top: 50px;
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-left: 24px;
+  vertical-align: top;
+}
+.mbx-childbox2 {
+  margin-left: 60px;
+}
+.mbx-childbox3 {
+  width: 46.5%;
+  margin-left: 60px;
+  vertical-align: top;
+}
+/* ---------------------------------------------Lar01-Start------------------------------------------------------ */
+.lar-container {
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid white; */
+  background-image: url(./images2/flarislar01_filtr.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+}
+.lar-content {
+  height: 20vh;
+  width: 60%;
+  /* background-color: aqua; */
+  margin: 50px auto;
+}
+.lar-content h1 {
+  color: white;
+  text-align: center;
+}
+.lar-content p {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.sec-3-btnbox {
+  height: 20vh;
+  width: 80%;
+  /* border: 1px solid white; */
+  margin: 370px auto;
+}
+.btnbox-child {
+  height: 20vh;
+  width: 43%;
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.btnbox-child1 {
+  margin-left: 80px;
+  text-align: center;
+}
+.child-heading1 {
+  color: white;
+}
+.child-btn1 {
+  padding: 18px 50px;
+  margin: 35px 35px;
+  background-color: transparent;
+  border: 1px solid rgb(0, 170, 248);
+  color: rgb(0, 170, 248);
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn-icon {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.child-btn1:hover {
+  color: white;
+  background-color: rgb(0, 170, 248);
+}
+/* -------------------------------Got-Start-------------------------------------------- */
+.got-container {
+  height: 80vh;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.got-box1 {
+  height: 80vh;
+  width: 40%;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+}
+.got-box2 {
+  width: 59.7%;
+  padding: 1px;
+}
+.got-content {
+  height: 65vh;
+  width: 80%;
+  /* border: 1px solid #000; */
+  margin: 60px auto;
+}
+.got-input {
+  height: 53vh;
+  width: 97%;
+  /* border: 1px solid #000; */
+  margin: 50px auto;
+  margin-right: 0px;
+}
+.inp1 {
+  height: 7vh;
+  width: 48%;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  display: inline-block;
+  margin-bottom: 25px;
+  padding: 0px 15px;
+  outline: none;
+}
+.inp2 {
+  margin-left: 22px;
+}
+.text {
+  height: 20vh;
+  width: 100%;
+  font-size: 17px;
+  border: 1px solid lightgray;
+  padding: 20px 15px;
+  outline: none;
+}
+.send-box {
+  height: 9vh;
+  width: 32%;
+  /* border: 1px solid #000; */
+  margin-left: 68%;
+  margin-top: 10px;
+}
+.dv-box {
+  height: 8vh;
+  width: 27%;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+}
+.dv-box1 {
+  text-align: center;
+  line-height: 8vh;
+}
+.dv-box2 {
+  background-color: rgb(238, 238, 238);
+}
+.dv-box3 {
+  width: 38%;
+  margin-left: 8px;
+  border: 1px solid blue;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 18px;
+  color: blue;
+}
+/* ----------------------------------------Flaris & footer-------------------------------------------- */
+
+.flaris-cont {
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  padding: 1px;
+}
+.flaris-box {
+  height: 45vh;
+  width: 90%;
+  /* border: 1px solid white; */
+  margin: 70px auto;
+}
+.logo2 {
+  height: 30px;
+  width: 130px;
+  /* background-color: aqua; */
+  display: inline-block;
+  vertical-align: top;
+}
+.navlist2 {
+  height: 44vh;
+  width: 45%;
+  /* background-color: aquamarine; */
+  display: inline-block;
+  margin-left: 55%;
+  vertical-align: top;
+  margin-top: -30px;
+  padding: 1px;
+}
+.navlist2-box1 {
+  height: 20vh;
+  width: 25%;
+  /* border: 1px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+.navlist2-box1 h3 {
+  color: white;
+  font-weight: bold;
+}
+.navlist2-box1 ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.navlist2-box1 ul li {
+  margin-top: 10px;
+}
+.navlist2-box1 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.input-box {
+  height: 25vh;
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+.input-box label {
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.input-box input {
+  height: 7.5vh;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.input-box button {
+  height: 7.5vh;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-box button:hover {
+  background-color: gray;
+  border: none;
+}
+.ffa {
+  visibility: hidden;
+}
+.input-box button:hover .ffa {
+  visibility: visible;
+}
+.hr {
+  height: 1px;
+  width: 90%;
+  background-color: aliceblue;
+  margin: -40px auto;
+}
+.footer-box {
+  height: 8vh;
+  width: 90%;
+  /* border: 1px solid red;s */
+  margin: 70px auto;
+}
+.footer-box p {
+  color: rgb(204, 204, 204);
+}
+.icon-mainbox {
+  height: 6vh;
+  width: 7%;
+  /* border: 1px solid white; */
+  margin-left: 93%;
+  margin-top: -20px;
+}
+.icon-box {
+  height: 5vh;
+  width: 40%;
+  /* border: 1px solid white; */
+  display: inline-block;
+  margin-left: 5.8px;
+}
+.setimg {
+  height: 100%;
+  width: 100%;
+}
